@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="desc">
+        <img class="desc-image" src="/images/pattern-circles.svg" alt="">
+        <div class="desc-text">
+          <h1 class="desc-title">Simple, traffic-based pricing</h1>
+          <p>
+            Sign-up for our 30-day trial.<br class="desc-break" />
+            No credit card required.
+          </p>
+        </div>
+      </div>
+      <div class="offer">
+
+        <div class="offer-grid">
+          <p class="offer-pageviews"><span class="offer-pageviewsnumber"></span>K Pageviews</p>
+          <div class="slider">
+            <div class="slider-full"></div>
+            <div class="slider-icon"></div>
+          </div>
+          <p class="offer-price">
+            $<span class="offer-pricenumber"></span>
+            <span class="offer-price_month">/month</span>
+          </p>
+        </div>
+
+        <div class="billing">
+          <span>Monthly Billing </span>
+          <div class="switchbutton">
+            <div class="switchbutton-toggler switchbutton-toggler_left"></div>
+          </div>
+          <span>Yearly Billing </span>
+          <span class="billing-discountnumber"
+            ><span>- </span>25%<span class="billig-discounttext"> discount</span
+            ></span>
+        </div>
+      
+        <div class="benefit">
+          <div class="benefit-divider"></div>
+          <div class="benefit-grid">
+            <div class="benefit-items">
+              <p class="benefit-item">Unlimited websites</p>
+              <p class="benefit-item">100% data ownership</p>
+              <p class="benefit-item">Email reports</p>
+            </div>
+            <button class="btn">Start my trial</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
